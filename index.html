@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">VAIBHAVI GOVANKOP</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">VAIBHAVI GOVANKOP</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="vaibhavi Govankop profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Vaibhavi Govankop</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/vaibhavi-govankop-352a6821a'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/vaibhavigvp'"
+          />
+          <img
+          src="./assets/instagram.png"
+          alt="My instagram profile"
+          class="icon"
+          onclick="location.href='https://instagram.com/vaibhavi_gvp?igshid=NGExMmI2YTkyZg=='"
+        />
+        <img
+          src="./assets/google.png"
+          alt="My google Developer profile"
+          class="icon"
+          onclick="location.href='https://developers.google.com/profile/u/vaibhavi'"
+        />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img style="height: auto;"
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Fresher </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Btech in Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+            <b>In a world where pixels tell stories and creativity knows no bounds, I am the architect of my digital universe. Fueled by a passion for innovation and armed with a palette of skills, my journey is a tapestry woven with the threads of resilience and curiosity. From crafting code to designing experiences, I am on a mission to redefine the ordinary. Join me in exploring a portfolio that encapsulates the unique symphony of my skills and the vibrant colors of my creativity. Let's embark on this visual odyssey together!
+            </b></p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills </h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Andriod Development </h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>My SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS </h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Analytics</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="padding-bottom: 30px;"> GROCERY STRORE APP </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vaibhavigvp/GroceryStore-master'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vaibhavigvp/GroceryStore-master'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        <!--project2-->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/virtual mouse.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="padding-bottom: 70px;"> VIRTUAL MOUSE </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vaibhavigvp/Virtual-Mouse'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vaibhavigvp/Virtual-Mouse'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        <!--projject2 end-->
+        <!--project2-->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/ONLINE LIBRARY SYSTEM.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title" 
+          style="padding-bottom: 30px;">ONLINE LIBRARY SYSTEM </h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/vaibhavigvp/Online-Library-System'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/vaibhavigvp/Online-Library-System'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      <!--projject2 end-->
+        <!--project2-->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/IMAGE TO PDF.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title"
+          style="padding-bottom: 30px;">IMAGE TO PDF APP </h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/vaibhavigvp/Images-to-PDF'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/vaibhavigvp/Images-to-PDF'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      <!--projject2 end-->
+        <!--project2-->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/inventory mgmt.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">INVENTORY SYSTEM MANAGEMENT </h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/vaibhavigvp/Inventory-Management'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/vaibhavigvp/Inventory-Management'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      <!--projject2 end-->
+        <!--project2-->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ONLINE SHOPPING SYSTEM.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">ONLINE SHOPPING SYSTEM </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vaibhavigvp/Online-Shopping-system-'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vaibhavigvp/Online-Shopping-system-'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        <!--projject2 end-->
+        <!--project2-->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/ART GALLERY MGMT.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title" style="padding-bottom: 35px;"> ART GALLERY SYSTEM </h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/vaibhavigvp/Art-Gallery-Management-'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/vaibhavigvp/Art-Gallery-Management-'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      <!--projject2 end-->
+      <!--project2-->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/ANTI THEFT.png"
+            alt="Project 2"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title"
+        style="padding-bottom: 70px;">ANTI THEFT </h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/vaibhavigvp/Anti-theft'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/vaibhavigvp/Anti-theft'"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+    <!--projject2 end-->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/codsoft.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"
+            style="padding-bottom: 30px;"> DATA SCIENCE CODSOFT </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vaibhavigvp/Codsoft'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/vaibhavigvp/Codsoft'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="Certificates">
+        <p class="section__text__p1">My Certificates</p>
+        <h1 class="title">Certificates</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/POWER BI & BUSINESS INTELLIGENCE.jpeg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">POWER BI & BUSINESS INTELLIGENCE</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1UogmUJX7Eu6z2XjUQSDhkPFnjXO2NZaD/view?usp=sharing'"
+                >
+                  Link
+                </button>
+                
+              </div>
+            </div>
+            <!--certificates 1 -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/DS AND ML.jpeg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title"
+              style="padding-bottom: 30px;">DATA SCIENCE FROM GFG </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/15iU3IOYYS9gxoOCQVwfgUtHu_nkmQvta/view?usp=sharing'"
+                >
+                  Link
+                </button>
+                
+              </div>
+            </div>
+            <!--certificates end-->
+             <!--certificates 1 -->
+             <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/INDIA INNOVATION HACKATHON.jpeg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">INDIA INNOVATION HACKATHON</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1kKXgoDKR4tVwQM7e5AklCmiKAmCAT72J/view?usp=sharing'"
+                >
+                  Link
+                </button>
+                
+              </div>
+            </div>
+            <!--certificates end-->
+             <!--certificates 1 -->
+             <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/ENGG EQUITY HACKATHON.jpeg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title"
+              style="padding-bottom: 30px;">ENGG EQUITY HACKATHON</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/13RmhN0iCqeGv32KzXe6khMW6ZMWuLfRf/view?usp=sharing'"
+                >
+                  Link
+                </button>
+                
+              </div>
+            </div>
+            <!--certificates end-->
+             <!--certificates 1 -->
+             <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/AI FOR WOMEN.jpeg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title"
+              style="padding-bottom: 70px;">AI FOR WOMEN</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1XL3seoofNgQxRmA8EYzVUvCT7rEVuxYu/view?usp=sharing'"
+                >
+                  Link
+                </button>
+                
+              </div>
+            </div>
+            <!--certificates end-->
+             <!--certificates 1 -->
+             <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/ANDROID BASICS IN KOTLIN.jpeg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title"
+              style="padding-bottom: 30px;">ANDROID BASICS IN KOTLIN</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/11_xiyGcR_JEMAWFwMGDOcASmEOuvoQwi/view?usp=sharing'"
+                >
+                  Link
+                </button>
+              </div>
+            </div>
+            <!--certificates end-->
+             <!--certificates 1 -->
+             <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/THE ZUNO FELLOWSHIP.jpeg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title"
+              style="padding-bottom: 30px;">THE ZUNO FELLOWSHIP</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1fpF5oUGkeDYTxCMD1V-9cDWusdIx2p-3/view?usp=sharing'"
+                >
+                  Link
+                </button>
+                
+              </div>
+            </div>
+            <!--certificates end-->
+             <!--certificates 1 -->
+             <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/FORENSICS.jpeg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">FORENSICS:Hiding data in unsuspected files </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1fpF5oUGkeDYTxCMD1V-9cDWusdIx2p-3/view?usp=sharing'"
+                >
+                  Link
+                </button>
+                
+              </div>
+            </div>
+            <!--certificates end-->
+            <!--certificates 1 -->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/GDG HACKATHON.jpeg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title" style="padding-bottom: 30px;">GDG HACKATHON</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1HCnFPjb83uFlUq8EYwCv2KD6rd7PohPF/view?usp=sharing'"
+                >
+                  Link
+                </button>
+                
+              </div>
+            </div>
+            <!--certificates end-->
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/CODSOFT INTREN.jpeg"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title"
+              style="padding-bottom: 70px;">CODSOFT INTREN</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://drive.google.com/file/d/1gxt-lNhEktNDKgviMfyEINjws4P_bhNq/view?usp=sharing'"
+                >
+                  Link
+                </button>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:vaibhavigovankop@gmail.com">vaibhavigovankop@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/vaibhavi-govankop-352a6821a">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 vaibhavi Govankop. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
